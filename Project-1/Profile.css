@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    /* background-color: black; */
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1000px;
+    height: 650px;
+    /* border: 2px solid black; */
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    overflow:hidden ;
+}
+#main h6 {
+    
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#main div:nth-child(2) h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 43px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#profile{
+    background-color: rgb(21, 41, 152);
+    height: 300px;
+    width: 30%;
+    padding:40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#profile img{
+    border-radius: 50%;
+
+}
+#profile button{
+    background-color:rgb(21, 41, 152);
+    padding: 6px 25px;
+   color: white;
+   border: 1px solid white;
+
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 44% 44%;
+    width: 50%;
+    /* background-color: aqua; */
+    grid-gap: 10px;
+    text-align: left;
+}
+#flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}

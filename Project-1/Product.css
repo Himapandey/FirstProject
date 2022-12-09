@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 30px;
+    padding: 30px;
+    margin: auto;
+    width: 1000px;
+}
+.title{
+text-align: center;
+}
+.flex-c{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    
+}
+.content-box{
+    padding: 10px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
